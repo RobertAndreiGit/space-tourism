@@ -8,7 +8,7 @@ const bellefair = Bellefair({ subsets: ["latin"], weight: "400" });
 
 export default function Home() {
   return (
-    <main className="bg-no-repeat bg-auto bg-cover bg-[url('/assets/home/background-home-mobile.jpg')] md:bg-[url('/assets/home/background-home-tablet.jpg')] lg:bg-[url('/assets/home/background-home-desktop.jpg')] lg:min-h-screen lg:h-1">
+    <main className="bg-no-repeat bg-auto bg-cover min-h-screen bg-[url('/assets/home/background-home-mobile.jpg')] md:bg-[url('/assets/home/background-home-tablet.jpg')] lg:bg-[url('/assets/home/background-home-desktop.jpg')] lg:min-h-screen lg:h-1">
       <div className="flex flex-col justify-between h-full lg:pt-10">
         <Header />
 
